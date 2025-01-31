@@ -1,0 +1,6 @@
+#!/bin/bash
+# /usr/bin/jarwrapper - the wrapper for binfmt_misc/jar
+
+# set path to system Java installation
+JAVA_PATH=/usr/bin/java
+$JAVA_PATH -jar "$@"
